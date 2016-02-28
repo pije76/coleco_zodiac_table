@@ -5,9 +5,9 @@ Note that the codes computed by this script may differ slightly from those in th
 
 ## Output files
 
-Coleco_zodiac_table.txt contains birth date output of the program from 1900 to 2100.
+[Coleco_zodiac_table.txt](https://raw.githubusercontent.com/mdoege/coleco_zodiac_table/master/coleco_zodiac_table.txt) contains birth date output of the program from 1900 to 2100.
 
-Coleco_zodiac_advice_table.txt has date codes for daily preview and advice modes between 1979 and 2030.
+[Coleco_zodiac_advice_table.txt](https://raw.githubusercontent.com/mdoege/coleco_zodiac_table/master/coleco_zodiac_advice_table.txt) has date codes for daily preview and advice modes between 1979 and 2030.
 
 ## Prerequisites
 
