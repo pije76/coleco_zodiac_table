@@ -42,10 +42,11 @@ while startdate <= enddate:
 	for xx,yy in r:
 		p = p.replace(yy,xx)
 		q = q.replace(yy,xx)
-	if sn[1] < sn[0]:
-		mer = '-'
-	elif sn[1] > sn[0]:
+	dmer = sn[1] - sn[0]
+	if dmer == 1 or dmer == -11:
 		mer = '+'
+	elif dmer == -1 or dmer == 11:
+		mer = '-'
 	else:
 		mer = ' '
 	out = "%s %s %s" % (p, q, mer)
