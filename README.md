@@ -1,5 +1,5 @@
 # Coleco Zodiac table calculator
-***Python script to create birthday tables for the [Coleco Zodiac](http://www.handheldmuseum.com/Coleco/Zodiac.htm) (which can be emulated by MAME 0.171 or later)***
+***Python script to create birth date code tables for the [Coleco Zodiac](http://www.handheldmuseum.com/Coleco/Zodiac.htm) (which can be emulated by MAME 0.171 or later)***
 
 Note that the codes computed by this script may differ slightly from those in the Coleco Zodiac manual (on pages 17 to 30).
 
@@ -17,16 +17,16 @@ Python3 and [PySwissEph](https://github.com/astrorigin/pyswisseph)
 
 Table elements are a compact hexadecimal representation of the signs the astrological planets are in at that date.
 
-So, first the current sign is computed for that date at noon, giving a value from 0 (Aries) to 11 (Pisces).
+So, first for each planet the current sign is computed for that date at noon, giving a value from 0 (Aries) to 11 (Pisces).
 
-Then, for the left and right numbers, four planets each are combined in duodecimal (base 12) like this:
+Then, for the left and right numbers, four planet positions each are combined as duodecimal digits (base 12) like this:
 
 z = 12³ * n1 + 12² * n2 + 12 * n3 + n4
 
-Left number (malefics):
+Left number (malefic planets):
 n1 = Mars, n2 = Pluto, n3 = Uranus, n4 = Saturn
 
-Right number (benefics):
+Right number (benefic planets):
 n1 = Jupiter, n2 = Neptune, n3 = Venus, n4 = Sun
 
 These numbers are then each converted to hexadecimal (base 16), with space padding for the left number and zero padding for the right.
