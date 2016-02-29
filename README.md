@@ -9,13 +9,17 @@ Note that the codes computed by this script may differ slightly from those in th
 
 [Coleco_zodiac_advice_table.txt](https://raw.githubusercontent.com/mdoege/coleco_zodiac_table/master/coleco_zodiac_advice_table.txt) has date codes for daily preview and advice modes between 1979 and 2030.
 
-## Prerequisites
+## Scripts
 
-Python3 and [PySwissEph](https://github.com/astrorigin/pyswisseph)
+Coleco_codes_now.py prints the current date codes.
 
 Coleco_table_create.py computes birth date codes.
 
 Coleco_table_advice_preview_create.py computes date codes for daily preview and advice modes.
+
+## Prerequisites
+
+Python3 and [PySwissEph](https://github.com/astrorigin/pyswisseph)
 
 ## Technical background
 
