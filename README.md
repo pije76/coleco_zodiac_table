@@ -1,21 +1,23 @@
 # Coleco Zodiac table calculator
-***Python script to create code tables for the [Coleco Zodiac](http://www.handheldmuseum.com/Coleco/Zodiac.htm) (which can be emulated by MAME 0.171 or later)***
+***Scripts to create code tables for the [Coleco Zodiac](http://www.handheldmuseum.com/Coleco/Zodiac.htm) (which can be emulated by MAME 0.171 or later)***
 
 Note that the codes computed by this script may differ slightly from those in the Coleco Zodiac manual (on pages 17 to 30, and 41 to 48, respectively).
 
-## Output files
+## Tables
 
 [Coleco_zodiac_table.txt](https://raw.githubusercontent.com/mdoege/coleco_zodiac_table/master/coleco_zodiac_table.txt) contains birth date output of the program from 1900 to 2100.
 
 [Coleco_zodiac_advice_table.txt](https://raw.githubusercontent.com/mdoege/coleco_zodiac_table/master/coleco_zodiac_advice_table.txt) has date codes for daily preview and advice modes between 1979 and 2030.
 
-## Scripts
+## Python3 scripts
 
 Coleco_codes_now.py prints the current date codes.
 
 Coleco_table_create.py computes birth date codes.
 
 Coleco_table_advice_preview_create.py computes date codes for daily preview and advice modes.
+
+Coleco_10_days.py prints daily preview/advice mode codes for the next ten days.
 
 ## Prerequisites
 
